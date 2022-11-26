@@ -1,0 +1,29 @@
+body {
+  background-color: #333332;
+}
+h1 {
+  font-size: 100px;
+  animation-name: time-change;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  background: linear-gradient(
+    122deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 0, 1) 52%,
+    rgba(255, 255, 0, 1) 74%,
+    rgba(255, 255, 255, 1) 83%
+  );
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textShine linear gradient;
+}
+@keyframes time-change {
+  0% {
+    background-size: 0% 50%;
+  }
+  100% {
+    background-size: 150% 50%;
+  }
+}

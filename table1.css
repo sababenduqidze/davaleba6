@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(149, 54, 144);
+  font-family: sans-serif;
+}
+div {
+  width: 630px;
+  height: 320px;
+  background-color: #25bda8;
+  color: white;
+  font-size: 15px;
+}
+header {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+table {
+  width: 100%;
+  text-align: left;
+}
+tr,
+th,
+td {
+  padding: 10px;
+  padding-left: 50px;
+}
+tr:nth-child(1) {
+  background-color: #66d4b7;
+}
