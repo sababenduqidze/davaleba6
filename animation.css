@@ -1,3 +1,16 @@
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+  background-color: green;
+  border-radius: 50%;
+  animation-name: time-change;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
 @keyframes time-change {
   0% {
     background-color: green;
@@ -18,17 +31,4 @@
     background-color: red;
     border-radius: 0%;
   }
-}
-
-div {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  background-color: green;
-  border-radius: 50%;
-  animation-name: time-change;
-  animation-duration: 2s;
-  animation-direction: alternate;
-  animation-timing-function: ease-in;
-  animation-iteration-count: infinite;
 }
