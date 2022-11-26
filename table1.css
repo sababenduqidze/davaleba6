@@ -5,6 +5,7 @@ body {
 div {
   width: 630px;
   height: 320px;
+  margin: 100px auto;
   background-color: #25bda8;
   color: white;
   font-size: 15px;
